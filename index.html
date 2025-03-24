@@ -1,24 +1,31 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <title>Hello World</title>
-  <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="images/hello-icon-152.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="white"/>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Hello World">
-  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA - Aplikacja</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="favicon.ico">
 </head>
-<body class="fullscreen">
-  <div class="container">
-    <h1 class="title">Hello World!</h1>
+<body>
+  <div class="container text-center">
+    <h1>Aplikacja PWA</h1>
+    <p>Tworzona przez <b>Olaf Bodzioch</b> i <b>Łukasz Doniec</b></p>
+
+    <div class="card mt-4">
+      <p>Wybierz jedną z funkcjonalności:</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="map2.html" class="btn btn-custom">Mapa</a>
+        <a href="sos.html" class="btn btn-danger">SOS</a>
+      </div>
+    </div>
+
+   
   </div>
-  <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
